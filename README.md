@@ -22,7 +22,7 @@ Note: Do not remove any elements that were included in the screen. You may add a
     2. Update mainscreen.html: lines 14/19/21/53 for appropriate titles. Date: 9/7.
 
 D.  Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen.
-    3. 
+    3. Created about.html file with link back to mainsceen.html: lines 1-13. Updated mainscreen.html with button to about.html: line 90. Updated MainScreenControllerr for about.html mapping: lines 55-58. Updated README.md for task D. Date: 9/7.
 
 E.  Add a sample inventory appropriate for your chosen store to the application. You should have five parts and five products in your sample inventory and should not overwrite existing data in the database.
 
