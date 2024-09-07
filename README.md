@@ -29,12 +29,11 @@ E.  Add a sample inventory appropriate for your chosen store to the application.
 Note: Make sure the sample inventory is added only when both the part and product lists are empty. When adding the sample inventory appropriate for the store, the inventory is stored in a set so duplicate items cannot be added to your products. When duplicate items are added, make a “multi-pack” part.
     4. Updated BootStrapData.java for 5 "parts" and 5 "products" with if-statement condition to prevent duplicates: lines 43-50/52-85/93-137. Date: 9/7.
 
-
 F.  Add a “Buy Now” button to your product list. Your “Buy Now” button must meet each of the following parameters:
 •  The “Buy Now” button must be next to the buttons that update and delete products.
 •  The button should decrement the inventory of that product by one. It should not affect the inventory of any of the associated parts.
 •  Display a message that indicates the success or failure of a purchase.
-    5. 
+    5. Updated mainscreen.html for "Buy Now" button: lines 84-85, created confirmbuysucess.html: lines 1-11, created confirmbuyfailure.html: lines 1-11, created BuyProductController.java: lines 1-42. Updated README.md for task F.
 
 G.  Modify the parts to track maximum and minimum inventory by doing the following:
 •  Add additional fields to the part entity for maximum and minimum inventory.
