@@ -14,12 +14,12 @@ Note: You may commit and push whenever you want to back up your changes, even if
 Note: Wait until you have completed all the following prompts before you create your copy of the repository branch history.
 
 B.  Create a README file that includes notes describing where in the code to find the changes you made for each of parts C to J. Each note should include the prompt, file name, line number, and change.
-    1. 
+    1. Updated README.md: lines 6-56 for task requirements. Date: 9/7.
 
 C.  Customize the HTML user interface for your customer’s application. The user interface should include the shop name, the product names, and the names of the parts.
 
 Note: Do not remove any elements that were included in the screen. You may add any additional elements you would like or any images, colors, and styles, although it is not required.
-    2. 
+    2. Update mainscreen.html: lines 14/19/21/53 for appropriate titles. Date: 9/7.
 
 D.  Add an “About” page to the application to describe your chosen customer’s company to web viewers and include navigation to and from the “About” page and the main screen.
     3. 
