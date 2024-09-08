@@ -53,4 +53,4 @@ I.  Add at least two unit tests for the maximum and minimum fields to the PartTe
     8. Added 4 tests for Max/Min inventory getters/setters: lines 159-195. Date 9/8.
 
 J.  Remove the class files for any unused validators in order to clean your code.
-    9. 
+    9. Deleted DeletePartValidator.java/ValidDeletePart.java. Updated README.md. Date: 9/8.
