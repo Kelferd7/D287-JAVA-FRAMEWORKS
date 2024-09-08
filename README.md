@@ -50,7 +50,7 @@ H.  Add validation for between or at the maximum and minimum fields. The validat
     7. Added MinimumValidator.java: lines 1-32, added ValidMinimum.java: lines 1-24, added ValidMaximum.java: lines 1-26, added MaximumValidator.java: lines 1-31, updated Part.java to import and set ValidMinimum/ValidMaximum: lines 4-5, 21-22, updated Product.java with ValidMinimum/ValidMaximum: lines 4-5, 25-27. Updated EnufPartsValidator.java to check remaining inv: lines 36-40. Updated InhousePartForm.html/OutsourcedPartForm.htm for errors on inventory: lines 33-37, 34-38. Updated READ.me. Date: 9/8.
 
 I.  Add at least two unit tests for the maximum and minimum fields to the PartTest class in the test package.
-    8. 
+    8. Added 4 tests for Max/Min inventory getters/setters: lines 159-195. Date 9/8.
 
 J.  Remove the class files for any unused validators in order to clean your code.
     9. 
