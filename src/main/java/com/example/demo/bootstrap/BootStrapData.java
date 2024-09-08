@@ -48,6 +48,8 @@ public class BootStrapData implements CommandLineRunner {
             beefJerky.setInv(10);
             beefJerky.setPrice(15);
             beefJerky.setId(5);
+            beefJerky.setMinInv(1);
+            beefJerky.setMaxInv(100);
 
             //Save to part repository
             partRepository.save(beefJerky);
@@ -57,6 +59,8 @@ public class BootStrapData implements CommandLineRunner {
             oreos.setInv(12);
             oreos.setPrice(2);
             oreos.setId(6);
+            oreos.setMinInv(1);
+            oreos.setMaxInv(100);
 
             partRepository.save(oreos);
 
@@ -65,6 +69,8 @@ public class BootStrapData implements CommandLineRunner {
             nutterButters.setInv(15);
             nutterButters.setPrice(3);
             nutterButters.setId(7);
+            nutterButters.setMinInv(1);
+            nutterButters.setMaxInv(100);
 
             partRepository.save(nutterButters);
 
@@ -73,6 +79,8 @@ public class BootStrapData implements CommandLineRunner {
             riceKrispies.setInv(20);
             riceKrispies.setPrice(4);
             riceKrispies.setId(8);
+            riceKrispies.setMinInv(1);
+            riceKrispies.setMaxInv(100);
 
             partRepository.save(riceKrispies);
 
@@ -81,6 +89,8 @@ public class BootStrapData implements CommandLineRunner {
             puppyChow.setInv(10);
             puppyChow.setPrice(6);
             puppyChow.setId(9);
+            puppyChow.setMinInv(1);
+            puppyChow.setMaxInv(100);
 
             partRepository.save(puppyChow);
         }
