@@ -30,7 +30,13 @@
     <p th:if="${#fields.hasErrors('maxInv')}" th:errors="*{maxInv}">Inventory Error</p>
 
 <p><input type="submit" value="Submit" /></p>
+    <div th:if="${#fields.hasErrors()}">
+        <ul>
+            <li th:each="err : ${#fields.allErrors()}" th:text="${err}" class="error"/>
+        </ul>
+    </div>
 </form>
+
 <p><errors path="price" cssClass=""error/><p>
 
 <a href="http://localhost:8080/">Link
