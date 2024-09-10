@@ -7,12 +7,7 @@ import org.springframework.context.ApplicationContext;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-/**
- *
- *
- *
- *
- */
+
 public class MaximumValidator implements ConstraintValidator<ValidMaximum, Part> {
     @Autowired
     private ApplicationContext context;

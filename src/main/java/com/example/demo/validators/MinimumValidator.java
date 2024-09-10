@@ -7,12 +7,7 @@ import org.springframework.context.ApplicationContext;
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-/**
- *
- *
- *
- *
- */
+
 public class MinimumValidator implements ConstraintValidator<ValidMinimum, Part> {
     @Autowired
     private ApplicationContext context;
