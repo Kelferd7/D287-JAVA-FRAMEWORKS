@@ -9,12 +9,7 @@ import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- *
- *
- *
- *
- */
+
 @Entity
 @ValidMinimum
 @ValidMaximum
@@ -31,9 +26,13 @@ public abstract class Part implements Serializable {
 
     @Min(value = 0, message = "Inventory value must be positive")
     int inv;
+
+    @Min(value = 0, message = "Minimum inventory value must be positive")
     int minInv;
 
-    @Max(value = 100, message = "Maximum inventory value must fall within set maximum")
+    @Min(value = 0, message = "Maximum inventory must be positive")
+
+    @Max(value = 200, message = "Maximum inventory value must fall within set maximum")
     int maxInv;
 
     @ManyToMany
@@ -122,11 +121,6 @@ public abstract class Part implements Serializable {
         return id == part.id;
     }
 
-    @Override
-    public int hashCode() {
-        return (int) (id ^ (id >>> 32));
-    }
-
     public void validateLimits() {
         if (this.inv < this.minInv) {
             throw new RuntimeException("This value falls below required minimum.");
@@ -135,4 +129,11 @@ public abstract class Part implements Serializable {
             throw new RuntimeException("This value exceeds the allowed maximum.");
         }
     }
+
+    @Override
+    public int hashCode() {
+        return (int) (id ^ (id >>> 32));
+    }
+
+
 }
